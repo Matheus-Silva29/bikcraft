@@ -1,0 +1,16 @@
+.tecnologia-bg {
+  background: var(--cor-11);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.tecnologia-imagem img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
