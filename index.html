@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas Elétrica</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,9 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
+      <a href="./">
+        <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
+      </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</li></a>
@@ -33,9 +36,10 @@
         <p class="font-2-l  cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="./bicicletas.html">Escolha a Sua</a>
       </div>
-      <div>
-        <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica preta.">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta Elétrica preta.">
+      </picture>
     </div>
   </main>
 
@@ -76,19 +80,19 @@
         <a class="link" href="./bicicletas.html">Escolha um modelo</a>
         <div class="tecnologia-vantagens">
           <div class="">
-            <img src="./img/icones/eletrica.svg" alt="">
+            <img src="./img/icones/eletrica.svg" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Motor Elétrico </h3>
             <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
           <div class="">
-            <img src="./img/icones/rastreador.svg" alt="">
+            <img src="./img/icones/rastreador.svg" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Rastreador</h3>
             <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
         </div>
       </div>
       <div class="tecnologia-imagem">
-        <img src="./img/fotos/tecnologia.jpg" alt="">
+        <img src="./img/fotos/tecnologia.jpg" width="1200" height="1920" alt="">
       </div>
     </div>
   </article>
